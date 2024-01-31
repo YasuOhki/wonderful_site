@@ -1,15 +1,49 @@
-.textbox_1 {
-  font-size: 32px;
-}
+.box_top {
+  border: 5px solid black;
+  border-radius: 10px;
+  font-family: "メイリオ", Meiryo, sans-serif;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  // display: flex;
+  // justify-content: center;
+  .textbox_1 {
+    font-size: 32px;
+    font-weight: bold;
+    height: 36px;
+  }
 
-.textbox_2 {
-  font-size: 12px;
-}
+  .textbox_2 {
+    font-size: 12px;
+  }
 
-.textbox_3 {
-  font-size: 24px;;
-}
+  .textbox_3 {
+    font-size: 20px;
+    padding: 10px;
+  }
 
-.textbox_4 {
-  font-size: 24px;
+  .textbox_4 {
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(transparent 40%, yellow);
+    line-height: 0.5;
+  }
+
+  .textbox_5 {
+    background-color: rgb(14, 178, 242);
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    width: 500px;
+    padding: 15px;
+  }
+  .textbox_6 {
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+  }
 }
