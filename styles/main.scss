@@ -1,13 +1,24 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  //background-image: url(images/head_bg.jpg);
+  background-image: url('https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding: 20px;
+}
+
 .box_top {
   border: 5px solid black;
   border-radius: 10px;
+  background-color: white;
   font-family: "メイリオ", Meiryo, sans-serif;
   width: 600px;
   text-align: center;
   margin: 0 auto;
   padding: 20px;
-  // display: flex;
-  // justify-content: center;
+
   .textbox_1 {
     font-size: 32px;
     font-weight: bold;
