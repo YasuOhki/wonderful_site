@@ -6,8 +6,7 @@ body {
 .background {
   background-image: url(images/head_bg.jpg);
   background-repeat: no-repeat;
-  //background-size: auto;
-  //background-position:center;
+  background-position:  0 -300px;
 }
 
 .box_top {
@@ -112,7 +111,7 @@ body {
   .box_explain_title {
     text-align: center;
     font-size: 24px;
-    text-decoration: underline;
-    padding: 20px;
+    border-bottom: solid 2px white;
+    margin-bottom: 20px;
   }
 }
