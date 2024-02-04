@@ -9,6 +9,54 @@ body {
   background-position:  0 -300px;
 }
 
+.box_header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  opacity: 90%;
+  font-family: 游ゴシック, Meiryo, sans-serif;
+  font-weight: bold;
+  padding: 10px 40px;
+
+  .box_header_logo {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_home {
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_service {
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_course {
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_company {
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_support {
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_blog {
+    display: inline-block;
+    padding: 20px;
+  }
+  .box_header_access {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fcb900;
+    color: white;
+  }
+}
+
 .box_top {
   display: block;
   border: 5px solid black;
