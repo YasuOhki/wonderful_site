@@ -11,6 +11,7 @@ body {
 }
 
 .box_header {
+  height: 70px;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -20,42 +21,73 @@ body {
   font-weight: bold;
   padding: 10px 40px;
 }
-.box_header .box_header_logo {
-  position: relative;
-  top: 5px;
-  display: inline-block;
+.box_header .only_pc {
+  display: flex;
+}
+.box_header .only_pc .box_header_logo {
+  display: flex;
+  align-items: center;
   padding: 20px;
 }
-.box_header .box_header_home {
-  display: inline-block;
+.box_header .only_pc .box_header_home {
+  display: flex;
+  align-items: center;
   padding: 20px;
 }
-.box_header .box_header_service {
-  display: inline-block;
+.box_header .only_pc .box_header_service {
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
-.box_header .box_header_course {
-  display: inline-block;
+.box_header .only_pc .box_header_course {
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
-.box_header .box_header_company {
-  display: inline-block;
+.box_header .only_pc .box_header_company {
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
-.box_header .box_header_support {
-  display: inline-block;
+.box_header .only_pc .box_header_support {
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
-.box_header .box_header_blog {
-  display: inline-block;
+.box_header .only_pc .box_header_blog {
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
-.box_header .box_header_access {
-  display: inline-block;
+.box_header .only_pc .box_header_access {
   padding: 20px;
-  margin: 20px;
+  display: flex;
+  align-items: center;
   background-color: #fcb900;
   color: white;
+}
+@media screen and (max-width: 960px) {
+  .box_header .only_pc {
+    display: none;
+  }
+}
+.box_header .only_sp {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .box_header .only_sp {
+    display: flex;
+  }
+  .box_header .only_sp .box_header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .box_header .only_sp .menubar {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .box_top {
