@@ -86,6 +86,13 @@ body {
   }
   .box_header .only_sp .menubar {
     display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .box_header .only_sp .navbar-toggle {
+    display: flex;
+    align-items: center;
+    padding: 20px;
     justify-content: space-around;
   }
 }
