@@ -88,14 +88,14 @@ body{
         justify-content: space-around;
         padding: 20px;
       }
-      .blank_box {
+     /*  .blank_box {
         display: flex;
         //border: 1px solid #000000;
         background-color: #fcb900;
         align-items: center;
         padding: 20px;
 
-      }
+      } */
       .menubar {
         display: flex;
         align-items: center;
@@ -151,13 +151,21 @@ body{
     border-radius: 10px;
     color: white;
     margin: 0 auto;
-    width: 500px;
+    width: 85%;
     padding: 15px;
   }
   .textbox_6 {
     font-size: 12px;
     margin: 10px;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .box_top {
+    width: 400px;
+  }
+  .textbox_3 {
+    font-size: 10px;
   }
 }
 

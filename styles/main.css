@@ -77,6 +77,14 @@ body {
 @media screen and (max-width: 960px) {
   .box_header .only_sp {
     display: flex;
+    /*  .blank_box {
+       display: flex;
+       //border: 1px solid #000000;
+       background-color: #fcb900;
+       align-items: center;
+       padding: 20px;
+
+     } */
   }
   .box_header .only_sp .box_header_logo {
     display: flex;
@@ -88,12 +96,6 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-  }
-  .box_header .only_sp .navbar-toggle {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    justify-content: space-around;
   }
 }
 
@@ -137,7 +139,7 @@ body {
   border-radius: 10px;
   color: white;
   margin: 0 auto;
-  width: 500px;
+  width: 85%;
   padding: 15px;
 }
 .box_top .textbox_6 {
@@ -146,6 +148,14 @@ body {
   padding: 10px;
 }
 
+@media screen and (max-width: 960px) {
+  .box_top {
+    width: 400px;
+  }
+  .textbox_3 {
+    font-size: 10px;
+  }
+}
 .box_guidance {
   position: relative;
   z-index: 1;
