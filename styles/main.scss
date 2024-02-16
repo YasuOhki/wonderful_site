@@ -88,14 +88,10 @@ body{
         justify-content: space-around;
         padding: 20px;
       }
-     /*  .blank_box {
-        display: flex;
-        //border: 1px solid #000000;
-        background-color: #fcb900;
-        align-items: center;
-        padding: 20px;
-
-      } */
+      .blank_box {
+        display: block;
+        width: 60%;
+      }
       .menubar {
         display: flex;
         align-items: center;
@@ -162,10 +158,27 @@ body{
 }
 @media screen and (max-width: 960px) {
   .box_top {
-    width: 400px;
-  }
-  .textbox_3 {
-    font-size: 10px;
+    //width: 400px;
+
+    .textbox_1 {
+      font-size: 48px;
+      height: 52px;
+    }
+    .textbox_2 {
+      font-size: 20px;
+    }
+    .textbox_3 {
+      font-size: 44px;
+    }
+    .textbox_4 {
+      font-size: 40px;
+    }
+    .textbox_5 {
+      font-size: 48px;
+    }
+    .textbox_6 {
+      font-size: 20px;
+    }
   }
 }
 
