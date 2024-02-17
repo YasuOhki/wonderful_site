@@ -96,8 +96,6 @@ body{
         display: flex;
         align-items: center;
         padding: 20px;
-        //justify-content: space-evenly;
-        //margin-right: 50px;
       }
     }
   }
@@ -158,8 +156,6 @@ body{
 }
 @media screen and (max-width: 960px) {
   .box_top {
-    //width: 400px;
-
     .textbox_1 {
       font-size: 48px;
       height: 52px;
@@ -191,32 +187,81 @@ body{
   padding: 20px;
   text-align: center;
   margin: 0 auto;
+  display: flex;
 
   .beginner {
+    display: flex;
     width: 250px;
-    height: 320px;
-    display: inline-block;
+    height: 300px;
     margin: 0 auto;
     color: white;
+    background-image: url(images/icn_beginner.svg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    align-items: flex-end;
+    justify-content: center;
   }
-
   .smartphone {
+    display: flex;
     width: 250px;
-    height: 320px;
-    display: inline-block;
+    height: 300px;
     margin: 0 auto;
     color: white;
+    background-image: url(images/icn_smartphone.svg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    align-items: flex-end;
+    justify-content: center;
   }
-
   .support {
+    display: flex;
     width: 250px;
-    height: 320px;
-    display: inline-block;
+    height: 300px;
     margin: 0 auto;
     color: white;
+    background-image: url(images/icn_support.svg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    align-items: flex-end;
+    justify-content: center;
   }
 }
 
+@media screen and (max-width: 960px) {
+  .box_guidance {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+
+    .beginner {
+      background-size: 300px;
+      display: flex;
+      width: 500px;
+      height: 400px;
+      font-size: 32px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .smartphone {
+      background-size: 300px;
+      width: 500px;
+      height: 400px;
+      font-size: 32px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .support {
+      background-size: 300px;
+      width: 500px;
+      height: 400px;
+      font-size: 32px;
+      padding: 20px;
+    }
+  }
+}
 .box_explain {
   position: relative;
   z-index: 1;
@@ -233,5 +278,15 @@ body{
     font-size: 24px;
     border-bottom: solid 2px white;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .box_explain {
+    width: 100%;
+    font-size: 40px;
+
+    .box_explain_title {
+      font-size: 48px;
+    }
   }
 }
