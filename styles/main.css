@@ -174,29 +174,79 @@ body {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
+  display: flex;
 }
 .box_guidance .beginner {
+  display: flex;
   width: 250px;
-  height: 320px;
-  display: inline-block;
+  height: 300px;
   margin: 0 auto;
   color: white;
+  background-image: url(images/icn_beginner.svg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  align-items: flex-end;
+  justify-content: center;
 }
 .box_guidance .smartphone {
+  display: flex;
   width: 250px;
-  height: 320px;
-  display: inline-block;
+  height: 300px;
   margin: 0 auto;
   color: white;
+  background-image: url(images/icn_smartphone.svg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  align-items: flex-end;
+  justify-content: center;
 }
 .box_guidance .support {
+  display: flex;
   width: 250px;
-  height: 320px;
-  display: inline-block;
+  height: 300px;
   margin: 0 auto;
   color: white;
+  background-image: url(images/icn_support.svg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  align-items: flex-end;
+  justify-content: center;
 }
 
+@media screen and (max-width: 960px) {
+  .box_guidance {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+  }
+  .box_guidance .beginner {
+    background-size: 300px;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    font-size: 32px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .box_guidance .smartphone {
+    background-size: 300px;
+    width: 500px;
+    height: 400px;
+    font-size: 32px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .box_guidance .support {
+    background-size: 300px;
+    width: 500px;
+    height: 400px;
+    font-size: 32px;
+    padding: 20px;
+  }
+}
 .box_explain {
   position: relative;
   z-index: 1;
@@ -213,4 +263,14 @@ body {
   font-size: 24px;
   border-bottom: solid 2px white;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .box_explain {
+    width: 100%;
+    font-size: 40px;
+  }
+  .box_explain .box_explain_title {
+    font-size: 48px;
+  }
 }/*# sourceMappingURL=main.css.map */
